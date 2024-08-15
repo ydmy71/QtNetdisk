@@ -1,0 +1,12 @@
+debug/handlemsg.o
+debug/main.o
+debug/mytcpsever.o
+debug/mytcpsocket.o
+debug/operatedb.o
+debug/protocol.o
+debug/server.o
+debug/qrc_severconfig.o
+debug/moc_mytcpsever.o
+debug/moc_mytcpsocket.o
+debug/moc_operatedb.o
+debug/moc_server.o

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Index</class>
+ <widget class="QWidget" name="Index">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1215</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>130</y>
+     <width>941</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <widget class="File" name="file_page"/>
+   <widget class="Friend" name="friend_page"/>
+  </widget>
+  <widget class="QPushButton" name="friend_push">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>80</y>
+     <width>93</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border : none;
+background-color:rgb(255，255， 255) 
+</string>
+   </property>
+   <property name="text">
+    <string>好友</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="file_push">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>290</y>
+     <width>93</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border :none; padding:20px;</string>
+   </property>
+   <property name="text">
+    <string>文件</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>File</class>
+   <extends>QWidget</extends>
+   <header>file.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Friend</class>
+   <extends>QWidget</extends>
+   <header>friend.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
